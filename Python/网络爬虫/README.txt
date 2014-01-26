@@ -9,7 +9,8 @@
 	Download from https://pypi.python.org/pypi/pyquery/ you can download it in the top right corner of the webpage
 	open console, cd to the path of PyQuery, and then run python setup.py install
 	if you are in Windows, there may be some error and would not be installed successfully. In this way, try to install lxml by yourself.
-	you can get lxml from https://pypi.python.org/packages/3.2/l/lxml/ 
+	you can get lxml from https://pypi.python.org/packages/3.2/l/lxml/ or from http://www.lfd.uci.edu/~gohlke/pythonlibs/
+	Install guides: http://www.cnblogs.com/sliverdang/archive/2011/09/05/2167760.html
 3.Tutorial
 	python: http://www.pythondoc.com/pythontutorial3/index.html
 	pyquery: http://newliu.com/post/18/
