@@ -243,12 +243,17 @@ while item != None:
                 conn.commit()
                 print Exception,":",ex
                 print ''
-        if(count == 100):
+        if(count == 50):
                 print "sleeping..."
+                count = 0
                 time.sleep(10)
         item = cur.fetchone()
 cur.close()
 cur2.close()
 cur3.close()
 conn.close()
+
+#跑完关机
+import os
+os.system('cmd.exe /k shutdown -s -t 10')
 
